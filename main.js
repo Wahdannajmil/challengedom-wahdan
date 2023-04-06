@@ -31,12 +31,6 @@
 
       
 // ===================Section 4. Manipulating elements===================
-// Manipulating elements menggunakan createElement
-      var divBaru = document.createElement("div");
-      divBaru.setAttribute("id", "divBaru");
-      divBaru.textContent = "Ini adalah div baru.";
-      document.body.appendChild(divBaru);
-      
       // Manipulating elements menggunakan appendChild
       var itemBaru = document.createElement("li");
       var teksItemBaru = document.createTextNode("Item 4");
